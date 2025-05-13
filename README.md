@@ -14,8 +14,8 @@ Adafruit invests time and resources providing this open source code,
 please support Adafruit and open-source hardware by purchasing
 products from Adafruit!
 
-Written by Bryan Siepert for Adafruit Industries.
-BSD license, check license.txt for more information
+Written by Limor "Ladyada" Fried for Adafruit Industries.
+MIT license, check license.txt for more information
 All text above must be included in any redistribution
 
 To install, use the Arduino Library Manager and search for "Adafruit INA237" and install the library.

@@ -18,11 +18,11 @@
  *
  *  @section ina238_author Author
  *
- *  Bryan Siepert for Adafruit Industries
+ *  Limor "Ladyada" Fried for Adafruit Industries
  *
  * 	@section ina238_license License
  *
- * 	BSD (see license.txt)
+ * 	MIT (see license.txt)
  *
  * 	@section ina238_history HISTORY
  *

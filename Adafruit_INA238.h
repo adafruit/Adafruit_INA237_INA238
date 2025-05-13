@@ -11,7 +11,7 @@
  * 	Adafruit!
  *
  *
- *	BSD license (see license.txt)
+ *	MIT license (see license.txt)
  */
 
 #ifndef _ADAFRUIT_INA238_H
