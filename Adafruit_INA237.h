@@ -2,7 +2,7 @@
  *  @file Adafruit_INA237.h
  *
  * 	I2C Driver for INA237/INA238 Current and Power sensors
- * 
+ *
  *  Note: INA237 and INA238 are functionally identical devices with different
  *  part numbers. This class implements all functionality for both chips.
  *

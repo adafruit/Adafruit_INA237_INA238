@@ -4,7 +4,7 @@
  *  @section ina237_intro Introduction
  *
  * 	I2C Driver for the INA237/INA238 I2C Current and Power sensor
- * 
+ *
  *  Note: INA237 and INA238 are functionally identical devices with different
  *  part numbers. This class implements all functionality for both chips.
  *
