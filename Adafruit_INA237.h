@@ -2,6 +2,9 @@
  *  @file Adafruit_INA237.h
  *
  * 	I2C Driver for INA237/INA238 Current and Power sensors
+ * 
+ *  Note: INA237 and INA238 are functionally identical devices with different
+ *  part numbers. This class implements all functionality for both chips.
  *
  * 	This is a library for the Adafruit INA237/INA238 breakouts:
  * 	http://www.adafruit.com/products/xxxx
@@ -20,9 +23,8 @@
 #include <Adafruit_INA2xx.h>
 
 #define INA237_I2CADDR_DEFAULT 0x40 ///< INA237/INA238 default i2c address
-#define INA237_DEVICE_ID \
-  0x238 ///< INA237 device ID (technically doesnt have one)
-#define INA238_DEVICE_ID 0x238 ///< INA238 device ID
+#define INA237_DEVICE_ID 0x238      ///< INA237 device ID
+#define INA238_DEVICE_ID 0x238      ///< INA238 device ID (identical to INA237)
 
 /**
  * @brief Alert trigger options specific to INA237/INA238.

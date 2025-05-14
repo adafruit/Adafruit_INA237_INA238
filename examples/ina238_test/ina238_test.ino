@@ -1,5 +1,8 @@
 #include <Adafruit_INA238.h>
 
+// Note: The INA238 is functionally identical to the INA237.
+// This example demonstrates the INA238-specific class, but
+// all functionality is identical to the INA237 example.
 Adafruit_INA238 ina238 = Adafruit_INA238();
 
 void setup() {

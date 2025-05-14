@@ -3,9 +3,12 @@
  *
  *  @section ina237_intro Introduction
  *
- * 	I2C Driver for the INA237 I2C Current and Power sensor
+ * 	I2C Driver for the INA237/INA238 I2C Current and Power sensor
+ * 
+ *  Note: INA237 and INA238 are functionally identical devices with different
+ *  part numbers. This class implements all functionality for both chips.
  *
- * 	This is a library for the Adafruit INA237 breakout:
+ * 	This is a library for the Adafruit INA237/INA238 breakouts:
  * 	http://www.adafruit.com/products/xxxx
  *
  * 	Adafruit invests time and resources providing this open source code,

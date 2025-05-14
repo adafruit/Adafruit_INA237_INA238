@@ -31,10 +31,6 @@
 
 #include "Adafruit_INA238.h"
 
-#include <Wire.h>
-
-#include "Arduino.h"
-
 /*!
  *    @brief  Instantiates a new INA238 class
  */

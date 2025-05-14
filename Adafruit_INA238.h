@@ -24,7 +24,7 @@
 
 /*!
  *    @brief  Class that stores state and functions for interacting with
- *            INA238 Current and Power Sensor (subclass of INA237)
+ *            INA238 Current and Power Sensor (identical to INA237)
  */
 class Adafruit_INA238 : public Adafruit_INA237 {
  public:
