@@ -1,5 +1,5 @@
 #######################################
-# Syntax Coloring Map for Adafruit_INA228 Library
+# Syntax Coloring Map for Adafruit_INA237/INA238 Library
 #######################################
 
 #######################################
@@ -7,7 +7,8 @@
 #######################################
 
 Adafruit_INA2xx	KEYWORD1
-Adafruit_INA228	KEYWORD1
+Adafruit_INA237	KEYWORD1
+Adafruit_INA238	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
@@ -53,8 +54,10 @@ alertFunctionFlags	KEYWORD2
 # Constants (LITERAL1)
 #######################################
 
-INA228_I2CADDR_DEFAULT	LITERAL1
-INA228_DEVICE_ID	LITERAL1
+INA237_I2CADDR_DEFAULT	LITERAL1
+INA238_I2CADDR_DEFAULT	LITERAL1
+INA237_DEVICE_ID	LITERAL1
+INA238_DEVICE_ID	LITERAL1
 INA2XX_MODE_SHUTDOWN	LITERAL1
 INA2XX_MODE_TRIGGERED	LITERAL1
 INA2XX_MODE_CONTINUOUS	LITERAL1
