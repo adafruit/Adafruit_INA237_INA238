@@ -190,9 +190,9 @@ float Adafruit_INA237::readCurrent(void) {
 /**************************************************************************/
 float Adafruit_INA237::readPower(void) {
   Adafruit_I2CRegister power =
-      Adafruit_I2CRegister(i2c_dev, INA2XX_REG_POWER, 2, MSBFIRST);
-  // INA237 power LSB = 20 * current_lsb
-  return (float)power.read() * 20.0 * _current_lsb * 1000.0; // Convert W to mW
+      Adafruit_I2CRegister(i2c_dev, INA2XX_REG_POWER, 3, MSBFIRST);
+  // INA237 power LSB = 0.2 * current_lsb
+  return (float)power.read() * 0.2 * _current_lsb * 1000.0; // Convert W to mW
 }
 
 /**************************************************************************/
